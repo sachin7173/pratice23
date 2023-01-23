@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-23T15:03:15 IST" name="Suite" finished-at="2023-01-23T15:03:54 IST" duration-ms="38824">
+    <groups>
+    </groups>
+    <test started-at="2023-01-23T15:03:15 IST" name="Test" finished-at="2023-01-23T15:03:54 IST" duration-ms="38824">
+      <class name="TestClasses.Test_1">
+        <test-method is-config="true" signature="openBrowser12()[pri:0, instance:TestClasses.Test_1@6973b51b]" started-at="2023-01-23T15:03:16 IST" name="openBrowser12" finished-at="2023-01-23T15:03:41 IST" duration-ms="25193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser12 -->
+        <test-method is-config="true" signature="login12()[pri:0, instance:TestClasses.Test_1@6973b51b]" started-at="2023-01-23T15:03:41 IST" name="login12" finished-at="2023-01-23T15:03:48 IST" duration-ms="7279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login12 -->
+        <test-method signature="verifyusername12()[pri:0, instance:TestClasses.Test_1@6973b51b]" started-at="2023-01-23T15:03:48 IST" name="verifyusername12" finished-at="2023-01-23T15:03:49 IST" duration-ms="675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyusername12 -->
+        <test-method is-config="true" signature="logout12(org.testng.ITestResult)[pri:0, instance:TestClasses.Test_1@6973b51b]" started-at="2023-01-23T15:03:49 IST" name="logout12" finished-at="2023-01-23T15:03:52 IST" duration-ms="3735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyusername12 status=SUCCESS method=Test_1.verifyusername12()[pri:0, instance:TestClasses.Test_1@6973b51b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout12 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestClasses.Test_1@6973b51b]" started-at="2023-01-23T15:03:52 IST" name="closeBrowser" finished-at="2023-01-23T15:03:54 IST" duration-ms="1881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestClasses.Test_1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
