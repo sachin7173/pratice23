@@ -10,7 +10,9 @@ public class Login {
 @FindBy(xpath="//input[@id='password']")private WebElement PWD;
 @FindBy(xpath="//input[@name='commit']")private WebElement loginbtn;
 public Login(WebDriver driver) {
-	PageFactory.initElements(driver,this);
+	PageFactory.initElements(driver,this);          
+	
+	
 }
 public void Username12(String username) {
 	UN.sendKeys(username);
